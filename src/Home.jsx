@@ -4,11 +4,11 @@ import './Home.css'
 import PokeGrid from './PokeGrid'
 import PokeFlex from './PokeFlex'
 import Menu from './Menu'
- 
 const Home = () => {
  
     return(
         <div>
+          <Menu/>
           <PokeGrid />
           <PokeFlex />
         </div>
